@@ -1,23 +1,24 @@
 {
-  "name": "react-pure",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devdeer-kevin/react-pure.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^3.2.4"
-  },
-  "bugs": {
-    "url": "https://github.com/devdeer-kevin/react-pure/issues"
-  },
-  "homepage": "https://github.com/devdeer-kevin/react-pure#readme"
+    "name": "react-pure",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devdeer-kevin/react-pure.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^3.2.4"
+    },
+    "bugs": {
+        "url": "https://github.com/devdeer-kevin/react-pure/issues"
+    },
+    "homepage": "https://github.com/devdeer-kevin/react-pure#readme"
 }
