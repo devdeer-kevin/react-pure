@@ -1,9 +1,10 @@
 const Item = (props) => {
     return (
-        <div className="item">
-            <div className="item-name">{props.name}</div>
-            <div className="item-price">{props.price}</div>
+        <div>
+            <h1>{props.title}</h1>
+            <p>{props.description}</p>
         </div>
     )
 }
+
 export default Item
