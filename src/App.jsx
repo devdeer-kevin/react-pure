@@ -1,5 +1,5 @@
 import React from 'react'
-import {createRoot} from 'react-dom'
+import { createRoot } from 'react-dom'
 
 const App = () => {
     return React.createElement('div', {}, React.createElement('h1', {}, 'Hello World'))
