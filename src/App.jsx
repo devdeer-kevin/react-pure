@@ -11,7 +11,7 @@ const App = () => {
             </nav>
             <h1>My Shop</h1>
             <Routes>
-                <Route path="/details" element={<Cart />} />
+                <Route path="/cart" element={<Cart />} />
             </Routes>
         </BrowserRouter>
     )
