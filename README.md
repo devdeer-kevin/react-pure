@@ -33,7 +33,7 @@ To build the app, follow these steps:
 
 ## Warning
 
--   `npm build` does't work under Windows
+-   `npm run build` does't work under Windows
 
 ## Contributing
 
