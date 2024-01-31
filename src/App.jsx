@@ -1,13 +1,14 @@
 import { createRoot } from 'react-dom'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Cart from './Cart'
+import { Link } from 'react-router-dom'
 
 const App = () => {
     return (
         <BrowserRouter>
             <nav>
-                <a href="/">Home </a>
-                <a href="/details">Cart</a>
+                <Link to="/">Home</Link>
+                <Link to="/cart">Cart</Link>
             </nav>
             <h1>My Shop</h1>
             <Routes>
