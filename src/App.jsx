@@ -1,14 +1,19 @@
 import { createRoot } from 'react-dom'
-import Item from './Item'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Cart from './Cart'
 
 const App = () => {
     return (
-        <>
-            <h1>Cart</h1>
-            <Item title="MacBook Pro 14" description="Worlds most expensive notebook." />
-            <Item title="MacBook Pro 16" description="Worlds most heaviest notebook." />
-            <Item title="MacBook Pro 18" description="Worlds biggest notebook." />
-        </>
+        <BrowserRouter>
+            <nav>
+                <a href="/">Home </a>
+                <a href="/details">Cart</a>
+            </nav>
+            <h1>My Shop</h1>
+            <Routes>
+                <Route path="/details" element={<Cart />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 
