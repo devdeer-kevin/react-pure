@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Cart from './Cart'
 import { Link } from 'react-router-dom'
+import Cart from './Cart'
 
 const App = () => {
     return (
