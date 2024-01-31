@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3001
 
 const html = fs.readFileSync(path.resolve(__dirname, './dist/client/index.html')).toString()
 
-// This is janky for reason
+// This is janky for a reason
 const parts = html.split('not rendered')
 
 const app = express()
