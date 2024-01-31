@@ -7,7 +7,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <nav>
-                <Link to="/">Home</Link>
+                <Link to="/">Home </Link>
                 <Link to="/cart">Cart</Link>
             </nav>
             <h1>My Shop</h1>
