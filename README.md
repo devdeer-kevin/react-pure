@@ -21,6 +21,16 @@ To get started with this project, follow these steps:
 3. Start the development server: `npm run dev`
 4. Open your browser and navigate to `http://localhost:5173` to see the application running.
 
+To build the app, follow these steps:
+
+1. Run `npm run build:server`
+2. Run `npm run build:client`
+
+--> The short way is to run `npm run build`
+
+3. Run `npm run start`
+4. Open your browser and navigate to `http://localhost:3000` to see the application running.
+
 ## Warning
 
 -   `npm build` does't work under Windows
