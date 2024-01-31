@@ -21,6 +21,10 @@ To get started with this project, follow these steps:
 3. Start the development server: `npm run dev`
 4. Open your browser and navigate to `http://localhost:5173` to see the application running.
 
+## Warning
+
+-   `npm build` does't work under Windows
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project have fun.

@@ -1,4 +1,3 @@
-import { createRoot } from 'react-dom'
 import Item from './Item'
 
 const App = () => {
@@ -13,7 +12,3 @@ const App = () => {
 }
 
 export default App
-
-const container = document.getElementById('root')
-const root = createRoot(container)
-root.render(<App />)
