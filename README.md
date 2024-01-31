@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a showcase of a pure React application built using Vite. Vite is a fast and lightweight development server and build tool for modern web applications. With Vite, you can enjoy near-instantaneous hot module replacement (HMR) and fast bundling, making the development experience highly efficient.
+This project is a showcase of a pure React application with basic routing built using Vite. Vite is a fast and lightweight development server and build tool for modern web applications. With Vite, you can enjoy near-instantaneous hot module replacement (HMR) and fast bundling, making the development experience highly efficient.
 
 ## Features
 
